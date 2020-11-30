@@ -7,27 +7,51 @@
         <meta name="description" content="Lucas Jolibois portfolio">
         <meta name="keywords" content="lucas portfolio, pratikplads, multimedie designer, studerende søger praktik">
         <title>Lucas Jolibois portfolio</title>
-        <link rel = "icon" type = "image/png" href = "#">
-        <link rel = "apple-touch-icon" type = "image/png" href = "#"/>
+        <link rel = "icon" type = "image/png" href = "france2.jpg">
+        <link rel = "apple-touch-icon" type = "image/png" href = "france2.jpg"/>
+        <script src="https://kit.fontawesome.com/06755d9ca7.js"></script> 
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
         <!-- Navigation bar -->
-        <header>
-            <h1 class="logo">Lucas Jolibois Portfolio</h1>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="#">Mine Projekter</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Om Mig</a></li>
-            </ul>
-        </nav>
-        </header>
+            <header>
+                <!--logo (name of the portfolio)-->
+                <div class="logo">Lucas Jolibois Portfolio</div>
 
-        <section id="section-a">
+                <!--The menu options-->
+                <nav >
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">my projects</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
 
-        </section>
+                <!--the burger menu-->
+            </nav>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+            </header>
+
+                <!--Makes the burger menu usable so that it has a function-->
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function(){ /*all selectors starts with a "$"*/
+                $('.burger-menu').click(function(){ /*makes it posible to click on the burger menu and adds a function to it*/
+                    $('nav').toggleClass('active')}) })</script>  <!--does so that the function that the bruger menu has is to activate the nav bar (the elemtent "nav" will be shown)-->
+
+
+
+
+           <section id="section-a">
+
+            <div class="bg-image"></div>
+            <div class="content-wrap">
+            <h1>Lucas Bendix Jolibois </h1>
+            <p>My strengths are </p>
+            <a href="#section-b" class="btn">view my projects</a>
+            </div>
+
+        </section> 
     </body>
     </html>
