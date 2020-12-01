@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap');
+
 /*Core style*/
 body{
     margin: 0;
@@ -70,6 +72,68 @@ header nav ul li a.active{
     cursor: pointer;
     display: none;
 }
+
+/*BTN*/
+.btn{
+    text-decoration: none;
+    background: orange;
+    display: inline-block;
+    color: #ffff;
+    padding: 0.7375em 0.85em;
+    border-radius: 2em;
+    font-size: 9.6px;
+    margin: -0.31em 0;
+     padding-bottom: 0.7375em;
+}
+
+.btn:hover{
+    color: orange;
+    background: #fff;
+}
+
+
+/*SECTION A*/
+#section-a{
+    min-height: 450px;
+    color: #D8D3C7;
+    text-align: left;
+    line-height: 0.4375em;
+}
+
+#section-a .bg-image{
+    position: absolute;
+    background-image: url("me1.png");
+    display: block;
+    background-color: #333333;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    width: 100%;
+    height: 328px;
+    z-index: -1;
+    opacity: 1;
+    }
+    
+    .content-text{
+    padding-top: 275px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+    #section-a h1{
+
+        padding-bottom: 0;
+        font-size: 0.9em;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+    }
+    
+    #section-a .content-wrap{
+        padding: 0 1.5em;
+    }  
+
 
 /*@media for the menu for everything smaller than 990 pixels*/
 @media (max-width: 990px){
