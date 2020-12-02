@@ -3,9 +3,12 @@
 /*Core style*/
 body{
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
- 
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5;
+    background: #fff;
+    color: #ffffff;
 }
 
 /*Navigation*/
@@ -88,9 +91,25 @@ header nav ul li a.active{
 
 .btn:hover{
     color: orange;
-    background: #fff;
+    background: #111111;
 }
 
+.btn2{
+    text-decoration: none;
+    background: orange;
+    display: inline-block;
+    color: #ffff;
+    padding: 0.7375em 0.85em;
+    border-radius: 2em;
+    font-size: 9.6px;
+    margin: 0.5em 0;
+    padding-bottom: 0.7375em;
+}
+
+.btn2:hover{
+    color: orange;
+    background: #111111;
+}
 
 /*SECTION A*/
 #section-a{
@@ -141,13 +160,18 @@ header nav ul li a.active{
         align-items: center;
     }
 
+    #section-b{
+        background-color: #fff;
+    }
+
     .container h1{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: lighter;
         letter-spacing: 0.1rem;
         text-align: center;
         overflow: hidden;
         padding: 1rem;
+        color: #252525;
     }
 
     .typed-text{
@@ -167,7 +191,8 @@ header nav ul li a.active{
     .writting-cursor.typing{
         animation: none;
     }
-    /*here i define the apearance of the blinking type animation*/
+
+    /*here i define the apearance of the blinking type animation fro section b*/
     @keyframes blink{
         0% { background-color: #151515;} /*0% of the 1s it will be white*/
         49% { background-color: #151515;}
@@ -175,6 +200,57 @@ header nav ul li a.active{
         99% { background-color: transparent;}
         100% { background-color: #151515;} /*this will make it reapear at 100% which is at 1 second*/
     }
+
+
+
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    /*Section C*/
+    #section-c {
+        background: #252525;
+        padding: 20px 1em 17px;
+    }
+
+    #section-c h2{
+        font-size: 16px;
+        font-weight: lighter;
+        margin-top: 24px;
+    }
+
+    #section-c .card-title{
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: lighter;
+        padding-bottom: 14px;
+        padding-top: -15px;
+    }
+    
+    #section-c ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #section-c li{
+        margin-bottom: 1em;
+        background: #ffffff;
+        color: #252525;
+    }
+    
+    .card-content{
+        padding: 1.5em;
+    }
+
+/*SECTION D*/
+    .section-c-end-1{
+        margin-top: -0.5px;
+        display: block;
+    }
+
 
 /*@media for the menu for everything smaller than 990 pixels*/
 @media (max-width: 990px){
@@ -221,3 +297,20 @@ header nav ul li a.active{
     header .logo{
         font-size: 18px; 
     }}
+
+    @media(min-width: 700px){
+
+    
+        #section-c .card-content{
+            margin-left: 300px;
+        }
+    
+        #section-c ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        #section-c li{
+            width: 47%;
+        }
+    }
