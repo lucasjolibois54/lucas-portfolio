@@ -246,10 +246,154 @@ header nav ul li a.active{
     }
 
 /*SECTION D*/
+
+    .section-d{
+        box-sizing: border-box;
+    }
+
     .section-c-end-1{
-        margin-top: -0.5px;
+        margin-top: -1px;
         display: block;
     }
+    .container-d p{
+        color: #252525;
+        line-height: 0.5em;
+        
+    }
+
+    .container-d{
+        margin-top: 1em;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .skill-p{
+        text-align: left;
+        color: #252525;
+    }
+
+    #skill-title{
+        color: #252525;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-top: 24px;
+    }
+
+    .skill-container{
+        width: 100%;
+        background: #ddd;
+    }
+
+    .skill{
+        text-align: right;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: #333333;
+    }
+
+    .html{
+        width: 36%;
+        background-color: #00A600;
+    }
+
+    .CSS{
+        width: 15%;
+        background-color: #2a9df6;
+    }
+
+    .social-media{
+        width: 68%;
+        background-color: #c01b1b;
+    }
+
+    .social-media{
+        width: 65%;
+        background-color: #c01b1b;
+    }
+
+    .lightroom{
+        width: 95%;
+        background-color: #1167b1;
+    }
+
+    .ux-design{
+        width: 65%;
+        background-color: #f1a3ad;
+    }
+
+
+    /*btn for skills*/
+    .btn3{
+        text-decoration: none;
+        background: orange;
+        display: inline-block;
+        color: #ffff;
+        padding: 0.7375em 0.85em;
+        border-radius: 2em;
+        font-size: 9.6px;
+        margin: 16px 0;
+        padding-bottom: 0.7375em;
+    }
+    
+    .btn3:hover{
+        color: orange;
+        background: #111111;
+    }
+
+    /*SECTION E*/
+    #footer-bølge{
+        margin-top: -7px;
+        display: block;
+    }
+
+
+ /*FOOTER*/
+
+
+ #footer{
+    padding: 0.6em;
+    padding-bottom: 1.5em;
+    background: #252525;
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-top: -3px;
+    
+    
+}
+
+#footer a{
+    color: orange;
+    text-decoration: none;
+}
+
+#footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#foot{
+    display: grid;
+    grid-gap: 3px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr  1fr 1fr ; 
+}
+
+
+
+
+
+
+
+
 
 
 /*@media for the menu for everything smaller than 990 pixels*/
