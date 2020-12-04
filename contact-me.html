@@ -12,7 +12,90 @@
         <script src="https://kit.fontawesome.com/06755d9ca7.js"></script> 
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="body-contact">
 
+                <!-- Navigation bar -->
+                <header id="nav-contact">
+                    <!--logo (name of the portfolio)-->
+                    <div class="logo">Lucas Bendix Jolibois Portfolio</div>
+    
+                    <!--The menu options-->
+                    <nav >
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my-projects.html">My projects</a></li>
+                        <li><a href="#">Project timeline</a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a class="active" href="contact-me.html">Contact me</a></li>
+                    </ul>
+    
+                    <!--the burger menu-->
+                </nav>
+                <div class="burger-menu"><i class="fas fa-bars"></i></div>
+                </header>
+
+        <!-- SECTION A- CONTACT-->
+
+    <section id="section-a-projects" class="my-projects-cards-title-section"> 
+
+        <!--title-->
+        <div id="title-contact">
+            <h2>Contact Info</h1>
+        </div>
+
+        <!--SECTION A WITH THE PARAGRAPH-->
+    <section id="text-a-contact">
+        <p class="text-a-contact">You can either contact me at: <span class="mail">lucasjolibois@icloud.com </span>or through the formula bellow </p>
+    </section>
+
+        <!--SECTION B-->
+        <section id="section-b-contact">
+
+        <div class="box">
+            <form>
+          
+              <label id="label">First Name</label>
+              <input type="text" placeholder="Enter your first name">
+          
+              <label id="label">Last Name</label>
+              <input type="text" placeholder="Enter your last name">
+          
+              <label id="label">Category</label>
+              <select>
+                <option>Internship/ Praktik</option>
+                <option>Job offer</option>
+                <option>other</option>
+              </select>
+          
+              <label id="label" >Message</label>
+              <textarea id="text-box" placeholder="Type your message here"></textarea>
+
+              
+              <input type="submit" value="Submit"> 
+          
+            </form>
+          </div>
+
+        </section>
+
+    <!--FOOTER-->
+     <footer id="footer">
+                            
+        <ul id="foot">
+        <li id="contact-footer"><a href="#nav-contact">Back to top↑</a></li>
+        <li id="made-by">  Made by: Lucas- 2020</li>
+        <li id="contact-footer"><a href="contact-me.html">Contact me</a></li>
+        </ul>
+        </footer>
+                                
+
+
+                                <!--Makes the burger menu usable so that it has a function-->
+                                <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+                                <script type="text/javascript">
+                                $(document).ready(function(){ /*all selectors starts with a "$"*/
+                                $('.burger-menu').click(function(){ /*makes it posible to click on the burger menu and adds a function to it*/
+                                $('nav').toggleClass('active')}) })</script>  <!--does so that the function that the bruger menu has is to activate the nav bar (the elemtent "nav" will be shown)-->
+        
     </body>
     </html>

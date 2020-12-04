@@ -389,6 +389,38 @@ header nav ul li a.active{
 
 
 
+
+
+
+
+/*@media for samller devices such as iphone SE*/
+@media (max-width: 320px){
+    header .logo{
+        font-size: 18px; 
+    }}
+
+    @media(min-width: 700px){
+
+    
+        #section-c .card-content{
+            margin-left: 300px;
+        }
+    
+        #section-c ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        #section-c li{
+            width: 47%;
+        }
+
+        #section-c .grid-project li{
+            width: 4%;
+        }
+    }
+
+
 /*------------------------   MY PROJECTS   -----------------------------*/
 
 
@@ -539,6 +571,105 @@ header nav ul li a.active{
 
 
 
+
+
+
+
+
+  /*-------------------- CONTACT---------------------*/
+
+/*css that will only affect the body of the contact page*/
+#body-contact{
+    background: #252525; /*changes the background of the contact page*/
+}
+
+/*title contact*/
+#title-contact h2{
+font-size: 20px; /*turns the font-size into 20px*/
+font-weight: lighter; /*turns it into a ligthter font*/
+padding-top: 50px; /*space between the top and the title*/
+color: #ffff; /*changes the color of the title*/
+text-align: center; /*aligns the title to the center*/
+}
+
+
+/*paragraph*/
+.text-a-contact{
+    margin-left: 5%; /*how much it gets pushed in from the left side*/
+    margin-right: 5%; /*how much it gets pushed in from the right side*/
+}
+
+/*only affects my mail*/
+p .mail{
+    color: orange; /*chnages the color of my mail in the paragraph*/
+}
+
+
+/*the box itself*/
+.box{
+    background-color: #fff; /*makes the box that the formular is on white*/
+    margin-top: 2%; /*closure so the section above*/
+    margin-left: 10%; /*how much it gets pushed in from the left side*/
+    margin-right: 10%; /*how much it gets pushed in from the right side*/
+    padding: 20px; /*padding all around the boxes*/
+    align-items: center; /*aligns it to the center*/
+  }
+
+
+  /*title of the different boxes (woudld'nt work without using an id)*/
+  #label{
+      color: #252525; /*changes it color*/
+    display: block; /*displaying it as a block*/
+    text-align: center; /*align it to the center*/
+    line-height: 140%; /*line height between the deffirent lines*/
+    font-size: 0.85em; /*the font size of the title above the boxes*/
+}
+
+/*the text box the the message*/
+#text-box{
+    height: 150px; /*the height of the box with the text*/
+    font-family: Helvetica, sans-serif; /*changes the font so that it matches the others*/
+}
+
+/*css that will affect all the boxes, both the text box, select box and textarea*/
+input[type=text], textarea, select {
+    border: 0.5px solid #333333; /*this will add a border around the boxes that is 0.5px*/
+    box-sizing: border-box;
+    margin-top: 4px; /* margin between every box on top */
+    margin-bottom: 12px; /* adds a margin under ever box*/
+    width: 100%; /*this is the size of the boxes*/
+    resize: vertical; /* does so that you can only resize the message box vertical. makes it more userfriendly */
+    padding: 8px; /* this will add padding which will also change the size of the boxes*/ 
+  }
+  
+  /* button of the contact formula*/
+  input[type=submit] { /*the button is a type submit*/
+    color: #fff; /*text color of the button*/
+    background: #252525; /*background color of the button*/
+    border-radius: 20px; /*roundness of the button*/
+    border: none; /*removes border so that there's no mark around it*/
+    padding: 12px 27px; /*height and width of the button*/
+    cursor: pointer; /*shows that the button is clickable*/
+  }
+  
+  /* hover effect when the mouse is on the button*/
+  input[type=submit]:hover { /*once again the button is a type=submit*/
+    columns: #252525; /*color of the text when the mouse is above the button*/
+    background-color: orange; /*color that the button chnages into once the mouse is aboce it*/
+  }
+  
+ 
+/*extra css code for the footer*/
+#body-contact #footer{
+    margin-top: 4%;
+}
+
+
+
+
+/*------- MEDIA QUERIES PRIMARILY FOR THE NAVIGATION--------*/
+
+
 /*@media for the menu for everything smaller than 990 pixels*/
 @media (max-width: 990px){
     header{
@@ -578,30 +709,3 @@ header nav ul li a.active{
         border-bottom: 1px solid #333333; /*adds a line around the menu options so that you can differentiate between the boxes of the meu options and the the limits and where it ends*/
     }
 }
-
-/*@media for samller devices such as iphone SE*/
-@media (max-width: 320px){
-    header .logo{
-        font-size: 18px; 
-    }}
-
-    @media(min-width: 700px){
-
-    
-        #section-c .card-content{
-            margin-left: 300px;
-        }
-    
-        #section-c ul{
-            display: flex;
-            justify-content: space-around;
-        }
-    
-        #section-c li{
-            width: 47%;
-        }
-
-        #section-c .grid-project li{
-            width: 4%;
-        }
-    }
