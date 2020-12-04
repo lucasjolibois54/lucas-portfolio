@@ -486,10 +486,18 @@ header nav ul li a.active{
   transition: 0.2s; /*transition for it to change color*/
   cursor: pointer; /*shows that it is clickable*/
   letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .card-btn1:hover,
-.card-btn1:active{ /*activates the hover so that the buttons has an hover effect*/
+.card-btn1:active { /*activates the hover so that the buttons has an hover effect*/
     background-color: orange;
     color: #252525;
 }
@@ -572,6 +580,9 @@ header nav ul li a.active{
 
 
 /*----------------TargetLeasing-------------*/
+/*SECTION A*/
+
+
 
 
 
