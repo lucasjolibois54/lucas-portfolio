@@ -576,7 +576,7 @@ a, a:hover, a:focus, a:active {
 
 
 
-/*----------------TargetLeasing-------------*/
+/*----------------TargetLeasing OG DE FLESTE ANDRE PROJEKTER-------------*/
 
 /*body*/
 #target-body{
@@ -627,6 +627,29 @@ body .project-about-p{
 body .koncept-tl{
     margin-bottom: 2.8em;
 }
+
+/*------ youtube nicoline -------*/
+
+body .nicoline-youtube{
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.nicoline-youtube{
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%; 
+    height: 10;
+  }
+  .nicoline-youtube iframe{
+    position: absolute; /*turn it into */
+    top:0; /*placement of top*/
+    left: 0; /*place of the left side. this puts the video in the middle. without this it would'nt be in the middle, and would'nt be responsive*/
+    width: 100%; /*how much of the video should be visible in width*/
+    height: 100%; /*how much of the video should be visible in height*/
+    z-index: -1; /*does so that it is behind the burger menu when activated*/
+  }
+
 
   /*-------------------- CONTACT---------------------*/
 

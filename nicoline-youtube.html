@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html id="youtube-nic" class="youtube-nic">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=egde">
+        <meta name="description" content="Lucas Jolibois portfolio">
+        <meta name="keywords" content="lucas portfolio, pratikplads, multimedie designer, studerende søger praktik">
+        <title>Lucas Bendix Jolibois portfolio</title>
+        <link rel = "icon" type = "image/png" href = "france2.jpg">
+        <link rel = "apple-touch-icon" type = "image/png" href = "france2.jpg"/>
+        <script src="https://kit.fontawesome.com/06755d9ca7.js"></script> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+ <body id="target-body" class="body-tl">
+        
+            <!-- Navigation bar -->
+            <header>
+                <!--logo (name of the portfolio)-->
+                <div class="logo">Lucas Bendix Jolibois Portfolio</div>
+
+                <!--The menu options-->
+                <nav >
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="my-projects.html">My projects</a></li>
+                    <li><a href="#">Project timeline</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="contact-me.html">Contact me</a></li>
+                </ul>
+
+                <!--the burger menu-->
+            </nav>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+            </header>
+
+
+
+        <!-- Section A -->
+        <section class="section-a-target">
+            <div class="nicoline-youtube">
+          <iframe id="nicoline-youtube" width="560" height="315" src="https://www.youtube.com/embed/y2m4r-xyUCc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </section>
+
+       
+       
+          <!-- Section B-->        
+    <section class="section-b-target" id="section-b-target">
+    <h2 class="project-about">What the project was about</h2>
+    <p>Through this project, we were to produce a video portrait of a classmate. there were no specific requirements in relation to how the task should be approached, however, a serious and reflective approach to the presentation awaited. The video portraits should reflect who my classmate Nicoline is, and her hobbies. The video had to last 1 to 2 minutes and had to be edited in Premiere Pro Adobe.</p>
+    </section>
+
+                        <!--Makes the burger menu usable so that it has a function-->
+                        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+                        <script type="text/javascript">
+                        $(document).ready(function(){ /*all selectors starts with a "$"*/
+                        $('.burger-menu').click(function(){ /*makes it posible to click on the burger menu and adds a function to it*/
+                        $('nav').toggleClass('active')}) })</script>  <!--does so that the function that the bruger menu has is to activate the nav bar (the elemtent "nav" will be shown)-->
+
+    </body>
+    </html>
