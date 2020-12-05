@@ -203,7 +203,7 @@ header nav ul li a.active{
 
 
 
-    img{
+    #body-index img{
         display: block;
         width: 100%;
         height: auto;
@@ -386,9 +386,6 @@ header nav ul li a.active{
     list-style: none;
     grid-template-columns: 1fr  1fr 1fr ; 
 }
-
-
-
 
 
 
@@ -580,12 +577,56 @@ a, a:hover, a:focus, a:active {
 
 
 /*----------------TargetLeasing-------------*/
-/*SECTION A*/
+
+/*body*/
+#target-body{
+    background: #252525;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* SECTION A */
+.target-image1{
+    max-width:100%;
+    height:auto;
+    margin-top: 50px;
+}
+    
+    #target-body img{
+    vertical-align: middle;
+    border-style:none;
+    }
+
+    .section-a-target{
+        max-width:1500px;
+    }
+
+    /*SECTION B-G*/
+body .project-about {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+    font-family: 'Helvetica', sans-serif;
+    color: orange;
 
 
+}
 
+body .project-about-p{
+    margin-top: -1.5em;
+    font-family: 'Helvetica', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+}
 
-
+/*Section G*/
+body .koncept-tl{
+    margin-bottom: 2.8em;
+}
 
   /*-------------------- CONTACT---------------------*/
 
