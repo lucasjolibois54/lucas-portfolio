@@ -635,6 +635,11 @@ body .nicoline-youtube{
     margin-top: 50px;
 }
 
+#target-body p{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 .nicoline-youtube{
     position: relative;
     width: 100%;
@@ -647,9 +652,26 @@ body .nicoline-youtube{
     left: 0; /*place of the left side. this puts the video in the middle. without this it would'nt be in the middle, and would'nt be responsive*/
     width: 100%; /*how much of the video should be visible in width*/
     height: 100%; /*how much of the video should be visible in height*/
-    z-index: -1; /*does so that it is behind the burger menu when activated*/
+    z-index: 1; /*does so that it is behind the burger menu when activated*/
   }
 
+  /*--------------above earth------------*/
+  /* SECTION A */
+.target-image2{
+    max-width:70%;
+    height:auto;
+    margin-top: 50px;
+    margin-bottom: -4%;
+}
+    
+    #section-a-target-2 img{
+    vertical-align: middle;
+    border-style:none;
+    }
+
+    .section-a-target2{
+        max-width:1500px;
+    }
 
   /*-------------------- CONTACT---------------------*/
 
@@ -759,10 +781,12 @@ input[type=text], textarea, select {
 /*made the burger menu usable (on smaller devices)*/
     header nav{
         /*display: none;*/
+        
         position: absolute; /*makes invisible so that you'll see the main page*/
         width: 100%;
         height: calc(100vh - 50px); /*100vh does so that the menu bare on phone uses all the screen. retracting 50px as the 100vh uses abit more than the whole screen*/
         background: #151515;
+        z-index: 2; /*puts the burger menu infront as i had trouble with it either being behind the youtbe video or covering it so that the youtube video wouldn't play*/
         top: 50px; /*how far down it is places from the top*/
         left: -100%; /*does so that the menu bar comes from the left side. if it was without the -, it would have come from the right side*/
         transition: 0.5s; /*how long it takes for the menu bare to apear. 0.5s gives it time to show the transition*/
