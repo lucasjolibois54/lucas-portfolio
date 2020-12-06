@@ -987,7 +987,7 @@ header .logo{
             font-weight: normal;
         }
 
-        .btn{
+        .btn, .btn2, .btn3{
             text-decoration: none;
             background: orange;
             display: inline-block;
@@ -997,6 +997,9 @@ header .logo{
             font-size: 13px;
             margin: 0.5em 0;
             padding-bottom: 0.7375em;
+        }
+        .btn3{
+            margin-top: 20px;
         }
 
 }
