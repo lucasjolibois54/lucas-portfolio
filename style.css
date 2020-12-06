@@ -863,7 +863,7 @@ p .mail{
 }
 
 /*css that will affect all the boxes, both the text box, select box and textarea*/
-input[type=text], textarea, select {
+input[type=text],input[type=email], textarea, select {
     border: 0.5px solid #333333; /*this will add a border around the boxes that is 0.5px*/
     box-sizing: border-box;
     margin-top: 4px; /* margin between every box on top */

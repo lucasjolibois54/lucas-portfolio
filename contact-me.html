@@ -54,23 +54,28 @@
 
         <!--SECTION A WITH THE PARAGRAPH-->
     <section id="text-a-contact">
-        <p class="text-a-contact">You can either contact me at: <span class="mail">lucasjolibois@icloud.com </span>or through the formula bellow </p>
+        <p class="text-a-contact">You can either contact me at: <span class="mail">lucasjolibois@icloud.com </span>or try through the formula bellow </p>
     </section>
 
         <!--SECTION B-->
+
+
+
+
         <section id="section-b-contact">
 
         <div class="box">
-            <form>
+            <form >
+                
           
-              <label id="label">First Name</label>
-              <input type="text" placeholder="Enter your first name">
+              <label id="label">Name</label>
+              <input name="name" type="text" placeholder="Enter your name">
           
-              <label id="label">Last Name</label>
-              <input type="text" placeholder="Enter your last name">
+             <!--- <label id="label">Last Name</label>
+              <input type="text" placeholder="Enter your last name">-->
 
               <label id="label">E-mail</label>
-              <input type="text" placeholder="Enter your e-mail adress">
+              <input name="email" type="email" placeholder="Enter your e-mail adress">
           
               <label id="label">Category</label>
               <select>
@@ -81,10 +86,10 @@
               </select>
           
               <label id="label" >Message</label>
-              <textarea id="text-box" placeholder="Type your message here"></textarea>
+              <textarea id="text-box" name="message" type="message" placeholder="Type your message here"></textarea>
 
               
-              <input type="submit" value="send"> 
+              <input id="submit" name="submit" type="submit" value="Submit"> 
           
             </form>
           </div>
@@ -112,3 +117,4 @@
         
     </body>
     </html>
+    
