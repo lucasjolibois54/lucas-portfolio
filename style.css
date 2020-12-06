@@ -962,3 +962,41 @@ header .logo{
             font-size: 10px;
         
         }}
+
+    /*makes the home page more readable when desktop*/
+
+        @media (min-width: 830px){
+        #section-a .bg-image{
+            height: 580px;
+        }
+    #section-a{
+        height: 580px;
+    }
+    .content-text{
+        padding-top: 435px;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+        #section-a h1{
+    
+            padding-bottom: 0;
+            font-size: 0.9em;
+            font-family: Helvetica, sans-serif;
+            font-weight: normal;
+        }
+
+        .btn{
+            text-decoration: none;
+            background: orange;
+            display: inline-block;
+            color: #ffff;
+            padding: 0.7375em 0.85em;
+            border-radius: 2em;
+            font-size: 13px;
+            margin: 0.5em 0;
+            padding-bottom: 0.7375em;
+        }
+
+}
