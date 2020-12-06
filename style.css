@@ -942,3 +942,23 @@ input[type=text], textarea, select {
         border-bottom: 1px solid #333333; /*adds a line around the menu options so that you can differentiate between the boxes of the meu options and the the limits and where it ends*/
     }
 }
+
+
+@media (max-width: 340px){
+header .logo{
+    font-size: 15px;
+
+}}
+
+@media (max-width: 299px){
+    header .logo{
+        font-size: 11px;
+    
+    }}
+
+
+    @media (max-width: 235px){
+        header .logo{
+            font-size: 10px;
+        
+        }}
