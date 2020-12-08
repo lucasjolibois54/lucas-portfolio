@@ -24,7 +24,7 @@ header{
 
 /*logo in the navigation*/
 header .logo{
-    color: orange;
+    color: #FCB905;
     height: 50px;
     line-height: 50px;
     font-size: 18px;
@@ -62,7 +62,7 @@ header nav ul li a{
 /*added a hover effect and a location effect*/
 header nav ul li a:hover,
 header nav ul li a.active{
-    color: orange;
+    color: #FCB905;
     background: #000000;
 }
 
@@ -79,7 +79,7 @@ header nav ul li a.active{
 /*BTN*/
 .btn{
     text-decoration: none;
-    background: orange;
+    background: #FCB905;
     display: inline-block;
     color: #ffff;
     padding: 0.7375em 0.85em;
@@ -90,13 +90,13 @@ header nav ul li a.active{
 }
 
 .btn:hover{
-    color: orange;
+    color: #FCB905;
     background: #111111;
 }
 
 .btn2{
     text-decoration: none;
-    background: orange;
+    background: #FCB905;
     display: inline-block;
     color: #ffff;
     padding: 0.7375em 0.85em;
@@ -107,7 +107,7 @@ header nav ul li a.active{
 }
 
 .btn2:hover{
-    color: orange;
+    color: #FCB905;
     background: #111111;
 }
 
@@ -176,7 +176,7 @@ header nav ul li a.active{
 
     .typed-text{
         font-weight: lighter;
-        color: orange;
+        color: #FCB905;
     }
 
     /*the blink type animation*/
@@ -325,7 +325,7 @@ header nav ul li a.active{
     /*btn for skills*/
     .btn3{
         text-decoration: none;
-        background: orange;
+        background: #FCB905;
         display: inline-block;
         color: #ffff;
         padding: 0.7375em 0.85em;
@@ -336,7 +336,7 @@ header nav ul li a.active{
     }
     
     .btn3:hover{
-        color: orange;
+        color: #FCB905;
         background: #111111;
     }
 
@@ -363,7 +363,7 @@ header nav ul li a.active{
 }
 
 #footer a{
-    color: orange;
+    color: #FCB905;
     text-decoration: none;
 }
 
@@ -476,7 +476,7 @@ header nav ul li a.active{
   padding: 1.5rem; /*around the button*/
   font-size: 1.2rem; 
   text-align: center; /*centers the button*/
-  color: orange; /*color of text from button*/
+  color: #FCB905; /*color of text from button*/
   background: #333333; /*background of button*/
   border: none; /*no borders*/
   border-radius: 0rem; /*makes the button rectangle*/
@@ -495,7 +495,7 @@ a, a:hover, a:focus, a:active {
 
 .card-btn1:hover,
 .card-btn1:active { /*activates the hover so that the buttons has an hover effect*/
-    background-color: orange;
+    background-color: #FCB905;
     color: #252525;
 }
 
@@ -611,7 +611,7 @@ body .project-about {
     overflow: hidden;
     padding: 1rem;
     font-family: 'Helvetica', sans-serif;
-    color: orange;
+    color: #FCB905;
 
 
 }
@@ -742,9 +742,6 @@ body .nicoline-youtube{
 
 
 
-
-
-
 .cards2 {
   display: flex; /*flexes the cards so that they are in collumns*/
   flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
@@ -832,7 +829,7 @@ text-align: center; /*aligns the title to the center*/
 
 /*only affects my mail*/
 p .mail{
-    color: orange; /*chnages the color of my mail in the paragraph*/
+    color: #FCB905; /*chnages the color of my mail in the paragraph*/
 }
 
 
@@ -886,7 +883,7 @@ input[type=text],input[type=email], textarea, select {
   /* hover effect when the mouse is on the button*/
   input[type=submit]:hover { /*once again the button is a type=submit*/
     columns: #252525; /*color of the text when the mouse is above the button*/
-    background-color: orange; /*color that the button chnages into once the mouse is aboce it*/
+    background-color: #FCB905; /*color that the button chnages into once the mouse is aboce it*/
   }
   
  
@@ -989,7 +986,7 @@ header .logo{
 
         .btn, .btn2, .btn3{
             text-decoration: none;
-            background: orange;
+            background: #FCB905;
             display: inline-block;
             color: #ffff;
             padding: 0.7375em 0.85em;
