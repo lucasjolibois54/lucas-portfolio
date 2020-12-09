@@ -3,97 +3,98 @@
 /*Core style*/
 body{
     margin: 0;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 1.5;
-    background: #fff;
-    color: #ffffff;
+    font-family: Helvetica, sans-serif; /*the fonttype (same as in xd*/
+    text-align: center; /*puts the text in the center*/
+    font-size: 1.1em; /*the main size of the font*/
+    line-height: 1.5; /*length between lines*/
+    background: #fff; /*background color*/
+    color: #ffffff; /*text color*/
 }
 
 /*Navigation*/
 header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 100px;
-    background: #151515;
-    width: 100%;
-    box-sizing: border-box;
+    position: absolute; /*makes it visible, without this, the nav bar would just have the same color as the background*/
+    top: 0; /*does so thhere is no white space on the top*/
+    left: 0; /*placement of the navbar*/
+    padding: 0 100px; /*placement of the nav-bar*/
+    background: #151515; /*background color of the nav bar*/
+    width: 100%; /*how much the nav bar should fill of the screen in width*/
+    box-sizing: border-box; /*turns it into boxes*/
 }
 
 /*logo in the navigation*/
 header .logo{
-    color: #FCB905;
-    height: 50px;
-    line-height: 50px;
-    font-size: 18px;
-    float: left;
-    font-weight: bold;
+    color: #FCB905; /*font color in nav-bar*/
+    height: 50px; /*height of the nav-bar*/
+    line-height: 50px; /*lineheight in the nav-bar*/
+    font-size: 18px; /*size of the font*/
+    float: left; /*placement of the name in the nav-bar (Lucas Bendix Jolibois Portfolio)*/
+    font-weight: bold; /*makes the text bold in the name of the nav*/
 }
 
 /*push the menu options to the right*/
 header nav{
-    float: right;
+    float: right; /*pushes the navigation options to the right*/
 }
 
 /*display flex*/
 header nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
+    margin: 0; /*removes margin*/
+    padding: 0; /*removes padding*/
+    display: flex; /*dispay flex puts the navigation enxt to eachother in a line*/
 }
 
 /*removed liststyle*/
 header nav ul li{
-    list-style: none;
+    list-style: none; /*does so that it isnt displayed in a list style*/
 }
 
 /*adapted the menu optiosn to the nav bar on desktop*/
 header nav ul li a{
-    height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
-    color: #fff;
-    text-decoration: none;
-    display: block;
+    height: 50px; /*height of the nav*/
+    line-height: 50px; /*lineheight of the bar*/
+    padding: 0 20px; /*padding between nav menu options*/
+    color: #fff; /*color of nav*/
+    text-decoration: none; /*no text decoration*/
+    display: block; /*displays it as a block around the different nav options*/
 }
 
 /*added a hover effect and a location effect*/
 header nav ul li a:hover,
 header nav ul li a.active{
-    color: #FCB905;
-    background: #000000;
+    color: #FCB905; /*turnes the text on nav orange when hover is activated*/
+    background: #000000; /*turnes the background on nav black when hover is activated*/
 }
 
 /*added the bruger menu to the menubare and removed it for desktop*/
 .burger-menu{
-    color: #fff;
-    float: right;
+    color: #fff; /*white burger menu*/
+    float: right; /*pushes the burger menu to the right*/
     line-height: 50px;
     font-size: 24px;
-    cursor: pointer;
-    display: none;
+    cursor: pointer; /*shows that it is clickable*/
+    display: none; /*removes the visibility of the bruger menu when its on desktop*/
 }
 
 /*BTN*/
 .btn{
-    text-decoration: none;
-    background: #FCB905;
-    display: inline-block;
-    color: #ffff;
-    padding: 0.7375em 0.85em;
-    border-radius: 2em;
-    font-size: 9.6px;
-    margin: 0.5em 0;
-    padding-bottom: 0.7375em;
+    text-decoration: none; /*removes text decoration on the button so that it doesnt look like a standart a*/
+    background: #FCB905; /*adds a background to the button*/
+    display: inline-block; /*doesnt so thatit is inline and in blockstyle so that there is space around it*/
+    color: #ffff; /*color of button*/
+    padding: 0.7375em 0.85em; /*the padding of the button on top button and sides*/
+    border-radius: 2em; /*the border radius whihc is that gives it the round corners*/
+    font-size: 9.6px; /*size of the button*/
+    margin: 0.5em 0; /*location of the button*/
+    padding-bottom: 0.7375em; /*gives it abit of space at the bottom*/
 }
 
 .btn:hover{
-    color: #FCB905;
-    background: #111111;
+    color: #FCB905; /*adds a hover effect which makes hte button orange*/
+    background: #111111; /*gives it black text*/
 }
 
+/*styling for the second button*/
 .btn2{
     text-decoration: none;
     background: #FCB905;
@@ -106,6 +107,7 @@ header nav ul li a.active{
     padding-bottom: 0.7375em;
 }
 
+/*adds a hover effect to the second button*/
 .btn2:hover{
     color: #FCB905;
     background: #111111;
@@ -113,31 +115,32 @@ header nav ul li a.active{
 
 /*SECTION A*/
 #section-a{
-    min-height: 328px;
-    color: #D8D3C7;
-    text-align: left;
-    line-height: 0.4375em;
+    min-height: 328px; /*minimum height of the section a with text and backgroudn pic (this is the height from the section and the the picture itself)*/
+    color: #D8D3C7; /*text color*/
+    text-align: left; 
+    line-height: 0.4375em; /*the line height is section a*/
 }
 
+/*background*/
 #section-a .bg-image{
-    position: absolute;
-    background-image: url("me1.png");
-    display: block;
+    position: absolute; /* makes the position absolute as it is supposed to be a background image*/
+    background-image: url("me1.png"); /*the image for the background*/
+    display: block; /*turns it into a block again*/
     background-color: #333333;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
-    width: 100%;
-    height: 328px;
-    z-index: -1;
-    opacity: 1;
+    background-position: center; /*centers the background*/
+    background-repeat: no-repeat; /*no repeat as i only want it once in section a*/
+    background-size: cover; /*i want it to cover the section within the given height*/
+    margin-top: 50px; /*giv it a margin top so that it isnt behind the nav bar*/
+    width: 100%; /*WANT IT TO FILL 100% of the width of the screen*/
+    height: 328px; /*height of the background so that it isnt too zoomed out and so that it covers the given section the way that it should*/
+    z-index: -1; /*puts the background behind rather than infront*/
+    opacity: 1; /*so that it is visible*/
     }
     
     .content-text{
-    padding-top: 265px;
+    padding-top: 265px; /*gives it the placement on the screen that it need to look as on the xd mockup*/
     margin-left: 20px;
-    text-align: center;
+    text-align: center; /*centers the text*/
     font-size: 16px;
 }
 
@@ -146,7 +149,7 @@ header nav ul li a.active{
         padding-bottom: 0;
         font-size: 0.9em;
         font-family: Helvetica, sans-serif;
-        font-weight: normal;
+        font-weight: normal; /*so that it has a normal fonttype*/
     }
     
     #section-a .content-wrap{
@@ -166,26 +169,27 @@ header nav ul li a.active{
 
     .container h1{
         font-size: 1.2rem;
-        font-weight: lighter;
+        font-weight: lighter; /*gives the font a lighter look rather than bolder*/
         letter-spacing: 0.1rem;
         text-align: center;
-        overflow: hidden;
-        padding: 1rem;
+        overflow: hidden; /*hides it so that you dont see everything all at once*/
+        padding: 1rem; /*padding of top and bottom*/
         color: #252525;
     }
 
+    /*the orange text that is being typed*/
     .typed-text{
-        font-weight: lighter;
+        font-weight: lighter; 
         color: #FCB905;
     }
 
     /*the blink type animation*/
     .writting-cursor{
-        display: inline-block;
+        display: inline-block; /*makes the blinking animation less thick*/
         width: 3px;
         background-color: #151515;
         margin-left: 0.1rem;
-        animation: blink 1s infinite;
+        animation: blink 1s infinite; /*makes it blink for 1sec infinitly so that it won't ever stop*/
     }
 
     .writting-cursor.typing{
@@ -202,11 +206,11 @@ header nav ul li a.active{
     }
 
 
-
+/*images in index*/
     #body-index img{
-        display: block;
-        width: 100%;
-        height: auto;
+        display: block; /*displays it as a block*/
+        width: 100%; /*want the image to be 100% so that you see everything on the image*/
+        height: auto; /*auto so that the height depends on the width*/
     }
     
     /*Section C*/
@@ -215,12 +219,14 @@ header nav ul li a.active{
         padding: 20px 1em 17px;
     }
 
+    /*the title pn homepage saying my projects*/
     #section-c h2{
         font-size: 20px;
         font-weight: lighter;
         margin-top: 24px;
     }
 
+    /*title of projects*/
     #section-c .card-title{
         font-size: 18px;
         font-family: Helvetica, sans-serif;
@@ -228,7 +234,7 @@ header nav ul li a.active{
         padding-bottom: 14px;
         padding-top: -15px;
     }
-    
+    /*projects*/
     #section-c ul{
         list-style: none;
         margin: 0;
@@ -246,14 +252,15 @@ header nav ul li a.active{
     }
 
 /*SECTION D*/
+/*dark wave*/
 
     .section-d{
-        box-sizing: border-box;
+        box-sizing: border-box; /*turns it into a border-box*/
     }
 
     .section-c-end-1{
-        margin-top: -1px;
-        display: block;
+        margin-top: -1px; /*placement of the dark wave*/
+        display: block; /*makes it visible*/
     }
     .container-d p{
         color: #252525;
@@ -263,12 +270,12 @@ header nav ul li a.active{
 
     .container-d{
         margin-top: 1em;
-        margin-left: 5%;
-        width: 90%;
+        margin-left: 5%; /*spacing on left seide*/
+        width: 90%; /*how big it should be compared to the width of the screen*/
     }
 
     .skill-p{
-        text-align: left;
+        text-align: left; /*puts the title of my skill to the left*/
         color: #252525;
     }
 
@@ -280,45 +287,45 @@ header nav ul li a.active{
     }
 
     .skill-container{
-        width: 100%;
-        background: #ddd;
+        width: 100%; /*sizing*/
+        background: #ddd; /*color of skill bar container*/
     }
 
     .skill{
         text-align: right;
         padding-top: 4px;
         padding-bottom: 4px;
-        color: #333333;
+        color: #333333; /*precent color*/
     }
 
     .html{
-        width: 36%;
-        background-color: #00A600;
+        width: 36%; /*width of the skill itself*/
+        background-color: #00A600; /*color that showcases my skill*/
     }
 
     .CSS{
-        width: 15%;
-        background-color: #2a9df6;
+        width: 15%;/*width of the skill itself*/
+        background-color: #2a9df6;/*color that showcases my skill*/
     }
 
     .social-media{
-        width: 68%;
-        background-color: #c01b1b;
+        width: 68%;/*width of the skill itself*/
+        background-color: #c01b1b;/*color that showcases my skill*/
     }
 
     .social-media{
-        width: 65%;
-        background-color: #c01b1b;
+        width: 65%;/*width of the skill itself*/
+        background-color: #c01b1b;/*color that showcases my skill*/
     }
 
     .lightroom{
-        width: 95%;
-        background-color: #1167b1;
+        width: 95%;/*width of the skill itself*/
+        background-color: #1167b1;/*color that showcases my skill*/
     }
 
     .ux-design{
-        width: 65%;
-        background-color: #f1a3ad;
+        width: 65%;/*width of the skill itself*/
+        background-color: #f1a3ad;/*color that showcases my skill*/
     }
 
 
@@ -342,14 +349,12 @@ header nav ul li a.active{
 
     /*SECTION E*/
     #footer-bølge{
-        margin-top: -7px;
-        display: block;
+        margin-top: -7px; /*placement of the second wave*/
+        display: block; /*turn it into a block to amke it visible*/
     }
 
 
  /*FOOTER*/
-
-
  #footer{
     padding: 0.6em;
     padding-bottom: 1.5em;
@@ -380,17 +385,17 @@ header nav ul li a.active{
 }
 
 #foot{
-    display: grid;
-    grid-gap: 3px;
+    display: grid; /*displays the grid*/
+    grid-gap: 3px; /*the added gap in between*/
     padding: 0;
     list-style: none;
-    grid-template-columns: 1fr  1fr 1fr ; 
+    grid-template-columns: 1fr  1fr 1fr ; /*the way that it should be displayed. this splits it into 3 parts that have the same length between eachother*/
 }
 
 
 
 
-/*@media for samller devices such as iphone SE*/
+/*@media for samller devices such as iphone SE*/ /*mainly for the homepage and nav bar*/
 @media (max-width: 320px){
     header .logo{
         font-size: 18px; 
