@@ -435,9 +435,11 @@ header nav ul li a.active{
 
 /*CSS FOR THE BODY*/
 #body-projects { 
+    padding-top: 50em;
   color: #272727;
   font-family: Helvetica, sans-serif;
   text-align: center;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.1px;
@@ -448,7 +450,7 @@ header nav ul li a.active{
 
 /*the cards themselves*/
 .my-projects-cards-title-section{
-  max-width: 1300px; /*the largest width the cards can have*/
+  max-width: 100%; /*the largest width the cards can have*/
   margin: 0 auto; /*the auto will help center it*/
 }
 
